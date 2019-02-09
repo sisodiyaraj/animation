@@ -1,0 +1,117 @@
+body{
+    background: linear-gradient(to right,rgb(10, 2, 83),#0ef7e4);
+
+}
+.a{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    background-color: #f7500e;
+    transition: width 500ms , height 500ms;
+
+}
+.a:hover{
+    width: 250px;
+    /* height: 400px; */
+
+}
+
+.b{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(to right,#f7500e,white);
+    /* transition: width 500ms , height 500ms; */
+    transition: 1000ms;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+
+}
+.b:hover{
+    transform: rotateZ(720deg);
+
+}
+
+.c{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    transition: width 500ms , height 500ms;
+
+}
+.c:hover{
+    
+    /* width: 400px; */
+    height: 250px;
+}
+
+.wrapper {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    /* border: 10px solid black; */
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right:50px;
+}
+
+.d{
+    /* display: inline-block;
+    height: 150px;
+    width: 150px; */
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right,white,green);
+    /* transition: width 500ms , height 500ms; */
+    transform-origin: bottom right;
+    transition: 500ms;
+    /* margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px; */
+
+}
+.wrapper:hover .d{
+    transform: rotateZ(90deg);
+
+}
+
+.container{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    /* margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px; */
+    /* border: 10px solid black; */
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right:50px;
+
+}
+
+.e{
+    height: 100%;
+    width: 100%;
+    /* display: inline-block;
+    height: 200px;
+    width: 200px; */
+    background-color: green;
+    /* transition: width 500ms , height 500ms; */
+    transform-origin: bottom right;
+    transition: 2000ms;
+    /* margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px; */
+  
+
+}
+.container:hover .e{
+    transform: rotateZ(1440deg);
+
+}
+
+/* .container:hover .e {
+    width:50%;
+} */
