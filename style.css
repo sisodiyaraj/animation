@@ -4,22 +4,22 @@ body{
 }
 .a{
     display: inline-block;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     background-color: #f7500e;
     transition: width 500ms , height 500ms;
 
 }
 .a:hover{
-    width: 250px;
+    width: 150px;
     /* height: 400px; */
 
 }
 
 .b{
     display: inline-block;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     background: linear-gradient(to right,#f7500e,white);
     /* transition: width 500ms , height 500ms; */
     transition: 1000ms;
@@ -35,8 +35,8 @@ body{
 
 .c{
     display: inline-block;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     background-color: white;
     transition: width 500ms , height 500ms;
 
@@ -44,13 +44,13 @@ body{
 .c:hover{
     
     /* width: 400px; */
-    height: 250px;
+    height: 150px;
 }
 
 .wrapper {
     display: inline-block;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     /* border: 10px solid black; */
     margin-left: 50px;
     margin-top: 50px;
@@ -79,8 +79,8 @@ body{
 
 .container{
     display: inline-block;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     /* margin-left: 50px;
     margin-top: 50px;
     margin-right: 50px; */
